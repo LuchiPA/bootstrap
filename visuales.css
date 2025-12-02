@@ -1,0 +1,86 @@
+body {
+    background-image: url("img/fondo.png"); 
+    background-size: cover;       
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center;  
+}
+.navbar {
+    background-color: #8fd36c !important;  
+}
+.navbar-brand img {
+    width: 100px;  
+    height: auto;
+}
+.navbar-brand {
+    font-size: 2.5rem;
+    font-weight: 1000;
+}
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.5rem; /* reduce tamaño del título en móvil */
+    }
+}
+.navbar-collapse .buttons {
+    display: block;     
+    margin-bottom: 10px;  
+}
+@media (min-width: 992px) {  
+    .navbar-collapse .buttons {
+        margin-bottom: 0;
+        margin-right: 10px; 
+    }
+}
+.buttons {
+    background-color: #4e8f2a;   
+    border-color: #4e8f2a;
+    color: white;
+    text-decoration: none; 
+    margin-right: 10px;          
+    padding: 12px 20px;          
+    font-size: 1.1rem;          
+    border-radius: 8px;          
+}
+.buttons:hover {
+    background-color: #76c645;  
+    border-color: #76c645;
+}
+
+.carousel-inner {
+    background: black;              
+}
+
+.carousel-item img {
+    display: block;
+    margin: 0 auto;                
+    max-width: 100%;                
+    max-height: 480px;              
+    width: auto !important;         
+    height: auto !important;        
+    object-fit: contain;            
+    background: black;             
+    padding: 10;   
+                    
+}
+.tarjeta {
+    background-color: rgba(81, 160, 38, 0.6);
+    border-radius: 15px;
+    padding: 10px; 
+}
+.tarjeta2 {
+    background-color: rgba(81, 160, 38, 0.6);
+    border-radius: 15px;
+    padding: 10px; 
+}
+.tarjeta .card-img-top {
+    border-radius: 15px; 
+} 
+.tarjeta2 .card-img-top {
+    border-radius: 15px; 
+}
+.card-header {
+    background-color: #8fd36c !important; 
+    color: black !important;              
+    border: none;
+}
+
